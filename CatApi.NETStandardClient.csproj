@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Marcin Badurowicz</Authors>
+    <Company>Politechnika Lubelska</Company>
+    <Product>CatApi</Product>
+    <Description>Swagger-generated client for CatApi</Description>
+    <Version>1.0.0-pre</Version>
+    <PackageLicenseUrl>https://github.com/csplb/CatApi.NETStandardClient/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/csplb/CatApi.NETStandardClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/csplb/CatApi.NETStandardClient</RepositoryUrl>
+    <PackageTags>catapi, education</PackageTags>
+    <PackageId>CatApi.NETStandardClient</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonSubTypes" Version="1.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="RestSharp" Version="106.5.4" />
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
